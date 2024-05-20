@@ -23,7 +23,8 @@ Ethereum: Blockchain platform
 
 # Getting Started
 
-Clone the Repository: git clone https://github.com/HagarFoda/fake-product-identification.git
+Clone the Repository: git clone https://github.com/HagarFoda/Fake-Product-Identification-Using-DAPP-on-BlockChain
+n.git
 
 Install Dependencies: npm install
 
