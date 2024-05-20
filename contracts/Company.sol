@@ -56,16 +56,7 @@ contract Company {
     }
 
 
-    // Function to check if a product is authentic
-    /*function verifyProduct(bytes32 _productId) public view returns (string memory) {
-        if (products[_productId].isValid) {
-            return "Authenticated";
-        } else {
-            return "Counterfeit";
-        }
-    */
-    // Other functions (addProducts, removeProduct, getProductCount)...
-
+   
     function verifyProduct(bytes32 _productId, address _verifyResult) public {
         require(products[_productId].verifyResult == address(0), "Product with the same ID already exists");
 
